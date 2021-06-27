@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#form {
+    width: 400px;
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+input {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    width: 90%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+#enviar {
+    border: 0;
+    background-color: lightblue;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    transition: 0.3s background-color;
+    margin-top: 30px;
+}
+
+#enviar:hover {
+    background-color: rgb(101, 150, 167);
+}
+
+.msg {
+    color: red;
+    font-size: 15px;
+    display: block;
+}
+
+.esconder {
+    display: none;
+}
+
+#footer {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
